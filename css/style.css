@@ -1,0 +1,61 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 425px) {
+  header {
+    width: 100%;
+    height: 60px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    justify-content: center;
+    align-items: center;
+  }
+  header .activado {
+    background-color: #988AB5;
+  }
+  header .botones {
+    width: 90px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+  header .switch-label {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    background-color: gray;
+    position: relative;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+  header .switch-label::before {
+    content: "";
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: white;
+    top: 2px;
+    left: 2px;
+    transition: 0.3s;
+  }
+  header input[type=checkbox] {
+    display: none;
+  }
+  header input[type=checkbox]:checked + .switch-label {
+    background-color: #6f00ff;
+  }
+  header input[type=checkbox]:checked + .switch-label::before {
+    transform: translateX(30px);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
