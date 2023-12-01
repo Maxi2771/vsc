@@ -44,7 +44,7 @@
         height: 190px;
         border-top: 1px solid #DBA9FF;
         display: grid;
-        grid-template-columns: 200px 200px;
+        grid-template-columns: 180px 150px;
         grid-column-gap: 25px;
         .contacto{
             text-align: center;
@@ -69,6 +69,8 @@
         .redes{
             text-align: center;
             text-decoration: underline;
+            position: relative;
+            top: 23px;
             .contenedor_img_footer{
                 display: flex;
                 flex-direction: column;
