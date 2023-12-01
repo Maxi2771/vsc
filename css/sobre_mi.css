@@ -87,13 +87,13 @@
     text-align: center;
     position: relative;
     left: 100px;
-    top: 110px;
+    top: 90px;
     color: #DBA9FF;
     text-decoration: underline;
   }
   main .contenedor_info .skills {
     position: relative;
-    top: 120px;
+    top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
