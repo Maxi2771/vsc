@@ -8,18 +8,20 @@
   header {
     width: 100%;
     height: 60px;
-    border: 1px solid black;
+    border: 3px solid #DBA9FF;
     display: grid;
     grid-template-columns: 100px 100px 100px 100px;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 0px 10px 5px #1E1927;
   }
   header .activado {
-    background-color: #988AB5;
+    background-color: #DBA9FF;
   }
   header .botones {
     width: 90px;
     height: 40px;
+    color: black;
     border: 1px solid black;
     border-radius: 50px;
     display: flex;
@@ -30,11 +32,12 @@
   header .switch-label {
     display: inline-block;
     width: 60px;
-    height: 30px;
+    height: 32px;
     background-color: gray;
     position: relative;
     cursor: pointer;
     border-radius: 15px;
+    border: 1px solid black;
   }
   header .switch-label::before {
     content: "";
@@ -51,11 +54,11 @@
     display: none;
   }
   header input[type=checkbox]:checked + .switch-label {
-    background-color: #6f00ff;
+    background-color: #DBA9FF;
   }
   header input[type=checkbox]:checked + .switch-label::before {
     transform: translateX(30px);
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=header.css.map */
