@@ -15,6 +15,7 @@
   }
   main .contenedor_info .info {
     color: #DBA9FF;
+    text-align: center;
   }
   main .contenedor_info .contenedor_img {
     border-bottom: 2px solid #DBA9FF;
@@ -27,7 +28,7 @@
     height: 158px;
   }
   main .contenedor_info h1 {
-    width: 100px;
+    width: 110px;
     text-align: center;
     position: relative;
     left: 100px;
@@ -65,11 +66,12 @@
   main .contenedor_info {
     background-color: #352C48;
     width: 300px;
-    height: 400px;
+    height: 450px;
     border: 5px solid #DBA9FF;
     border-radius: 50px;
   }
   main .contenedor_info .info {
+    text-align: center;
     color: #DBA9FF;
   }
   main .contenedor_info .contenedor_img {
@@ -83,17 +85,17 @@
     height: 158px;
   }
   main .contenedor_info h1 {
-    width: 100px;
+    width: 110px;
     text-align: center;
     position: relative;
     left: 100px;
-    top: 90px;
+    top: 70px;
     color: #DBA9FF;
     text-decoration: underline;
   }
   main .contenedor_info .skills {
     position: relative;
-    top: 100px;
+    top: 80px;
     display: flex;
     justify-content: center;
     align-items: center;

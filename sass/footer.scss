@@ -43,48 +43,34 @@
         width: 100%;
         height: 190px;
         border-top: 1px solid #DBA9FF;
-        display: grid;
-        grid-template-columns: 180px 150px;
-        grid-column-gap: 25px;
+        text-align: center;
         .contacto{
-            text-align: center;
-            text-decoration: underline;
+            position: relative;
+            top: 20px;
             .contenedor_img_footer{
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
                 img{
-                    border: 2px solid #DBA9FF;
-                    border-radius: 50px;
+                    position: relative;
+                    top: 5px;
                     width: 30px;
                     height: 30px;
+                    border: 2px solid #DBA9FF;
                     background-color: #352C48;
-                    position: relative;
-                    top: 15px;
-                    margin-top: 10px;
+                    border-radius: 50px;
                 }
             }
         }
         .redes{
-            text-align: center;
-            text-decoration: underline;
             position: relative;
-            top: 23px;
+            top: 40px;
             .contenedor_img_footer{
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
                 img{
-                    border: 2px solid #DBA9FF;
-                    border-radius: 50px;
+                    position: relative;
+                    top: 5px;
                     width: 30px;
                     height: 30px;
+                    border: 2px solid #DBA9FF;
                     background-color: #352C48;
-                    position: relative;
-                    top: 15px;
-                    margin-top: 10px;
+                    border-radius: 50px;
                 }
             }
         }

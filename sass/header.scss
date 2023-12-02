@@ -4,6 +4,11 @@
     box-sizing:border-box;
 }
 
+body{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 0.9em;
+}
+
 $color:#161AC7;
 @media screen and (max-width:852px) {
     header{
@@ -73,7 +78,7 @@ $color:#161AC7;
         height: 60px;
         border: 3px solid #DBA9FF;
         display: grid;
-        grid-template-columns: 100px 100px 100px 100px;
+        grid-template-columns: 90px 90px 90px 90px;
         justify-content: center;
         align-items: center;
         box-shadow: 0 0px 10px 5px #1E1927;
@@ -81,11 +86,13 @@ $color:#161AC7;
             background-color: #DBA9FF;
         }
         .botones{
-            width: 90px;
+            width: 80px;
             height: 40px;
             color: black;
             border: 1px solid black;
             border-radius: 50px;
+            position: relative;
+            left: 10px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -97,6 +104,7 @@ $color:#161AC7;
             height: 32px;
             background-color: gray;
             position: relative;
+            left: 10px;
             cursor: pointer;
             border-radius: 15px;
             border: 1px solid black;

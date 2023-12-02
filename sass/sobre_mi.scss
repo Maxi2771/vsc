@@ -13,6 +13,7 @@
             border-radius: 50px;
             .info{
                 color: #DBA9FF;
+                text-align: center;
             }
             .contenedor_img{
                 border-bottom:2px solid #DBA9FF;
@@ -25,7 +26,7 @@
                 }
             }
             h1{
-                width: 100px;
+                width: 110px;
                 text-align: center;
                 position: relative;
                 left: 100px;
@@ -47,8 +48,6 @@
             height: 400px;
             border: 2px solid #DBA9FF;
             border-radius: 50px;
-            
-
         }
     }
     footer{
@@ -66,10 +65,11 @@
         .contenedor_info{
             background-color: #352C48;
             width: 300px;
-            height: 400px;
+            height: 450px;
             border: 5px solid #DBA9FF;
             border-radius: 50px;
             .info{
+                text-align: center;
                 color: #DBA9FF;
             }
             .contenedor_img{
@@ -83,17 +83,17 @@
                 }
             }
             h1{
-                width: 100px;
+                width: 110px;
                 text-align: center;
                 position: relative;
                 left: 100px;
-                top: 90px;
+                top: 70px;
                 color: #DBA9FF;
                 text-decoration: underline;
             }
             .skills{
                 position: relative;
-                top: 100px;
+                top: 80px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -105,8 +105,6 @@
             height: 400px;
             border: 2px solid #DBA9FF;
             border-radius: 50px;
-            
-
         }
     }
     footer{
