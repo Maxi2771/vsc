@@ -11,7 +11,8 @@ body{
 
 $color:#161AC7;
 @media screen and (max-width:852px) {
-    header{
+    /*Menu Bienvenida*/
+    .menu_b{
         width: 100%;
         height: 60px;
         border: 3px solid #DBA9FF;
@@ -68,12 +69,50 @@ $color:#161AC7;
         input[type="checkbox"]:checked + .switch-label::before {
             transform: translateX(30px);
         }
-        
+    }
+    /*Menu de la red*/
+    .menu_h{
+        width: 50px;
+        height: 50px;
+        border: 1px solid black;
+        border-radius: 0px 10px 10px 0px;
+    }
+    .menu{
+        width: 150px;
+        height: 100%;
+        border-right: 1px solid black;
+        position: fixed;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img{
+            width:  50px;
+            height: 50px;
+            border: 1px solid black;
+            border-radius: 50px;
+        }
+        .botones{
+            width: 80px;
+            height: 40px;
+            color: black;
+            border: 1px solid black;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 15px;
+            text-decoration: none;
+        }
+        .activado{
+            background-color: #DBA9FF;
+        }
     }
 }
 
 @media screen and (max-width:425px) {
-    header{
+    /*Menu de Bienvenida*/
+    .menu_b{
         width: 100%;
         height: 60px;
         border: 3px solid #DBA9FF;
@@ -133,6 +172,42 @@ $color:#161AC7;
         input[type="checkbox"]:checked + .switch-label::before {
             transform: translateX(30px);
         }
-        
+    }
+    /*Menu de la red*/
+    .menu_h{
+        width: 50px;
+        height: 50px;
+        border: 1px solid black;
+    }
+    .menu{
+        width: 150px;
+        height: 100%;
+        border-right: 1px solid black;
+        position: fixed;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img{
+            width:  50px;
+            height: 50px;
+            border: 1px solid black;
+            border-radius: 50px;
+        }
+        .botones{
+            width: 80px;
+            height: 50px;
+            color: black;
+            border: 1px solid black;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 45px;
+            text-decoration: none;
+        }
+        .activado{
+            background-color: #DBA9FF;
+        }
     }
 }

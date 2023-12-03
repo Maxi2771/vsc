@@ -10,7 +10,8 @@ body {
 }
 
 @media screen and (max-width: 852px) {
-  header {
+  /*Menu Bienvenida*/
+  .menu_b {
     width: 100%;
     height: 60px;
     border: 3px solid #DBA9FF;
@@ -20,10 +21,10 @@ body {
     align-items: center;
     box-shadow: 0 0px 10px 5px #1E1927;
   }
-  header .activado {
+  .menu_b .activado {
     background-color: #DBA9FF;
   }
-  header .botones {
+  .menu_b .botones {
     width: 90px;
     height: 40px;
     color: black;
@@ -34,7 +35,7 @@ body {
     align-items: center;
     text-decoration: none;
   }
-  header .switch-label {
+  .menu_b .switch-label {
     display: inline-block;
     width: 60px;
     height: 32px;
@@ -44,7 +45,7 @@ body {
     border-radius: 15px;
     border: 1px solid black;
   }
-  header .switch-label::before {
+  .menu_b .switch-label::before {
     content: "";
     position: absolute;
     width: 26px;
@@ -55,18 +56,57 @@ body {
     left: 2px;
     transition: 0.3s;
   }
-  header input[type=checkbox] {
+  .menu_b input[type=checkbox] {
     display: none;
   }
-  header input[type=checkbox]:checked + .switch-label {
+  .menu_b input[type=checkbox]:checked + .switch-label {
     background-color: #DBA9FF;
   }
-  header input[type=checkbox]:checked + .switch-label::before {
+  .menu_b input[type=checkbox]:checked + .switch-label::before {
     transform: translateX(30px);
+  }
+  /*Menu de la red*/
+  .menu_h {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 0px 10px 10px 0px;
+  }
+  .menu {
+    width: 150px;
+    height: 100%;
+    border-right: 1px solid black;
+    position: fixed;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu img {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50px;
+  }
+  .menu .botones {
+    width: 80px;
+    height: 40px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    text-decoration: none;
+  }
+  .menu .activado {
+    background-color: #DBA9FF;
   }
 }
 @media screen and (max-width: 425px) {
-  header {
+  /*Menu de Bienvenida*/
+  .menu_b {
     width: 100%;
     height: 60px;
     border: 3px solid #DBA9FF;
@@ -76,10 +116,10 @@ body {
     align-items: center;
     box-shadow: 0 0px 10px 5px #1E1927;
   }
-  header .activado {
+  .menu_b .activado {
     background-color: #DBA9FF;
   }
-  header .botones {
+  .menu_b .botones {
     width: 80px;
     height: 40px;
     color: black;
@@ -92,7 +132,7 @@ body {
     align-items: center;
     text-decoration: none;
   }
-  header .switch-label {
+  .menu_b .switch-label {
     display: inline-block;
     width: 60px;
     height: 32px;
@@ -103,7 +143,7 @@ body {
     border-radius: 15px;
     border: 1px solid black;
   }
-  header .switch-label::before {
+  .menu_b .switch-label::before {
     content: "";
     position: absolute;
     width: 26px;
@@ -114,14 +154,51 @@ body {
     left: 2px;
     transition: 0.3s;
   }
-  header input[type=checkbox] {
+  .menu_b input[type=checkbox] {
     display: none;
   }
-  header input[type=checkbox]:checked + .switch-label {
+  .menu_b input[type=checkbox]:checked + .switch-label {
     background-color: #DBA9FF;
   }
-  header input[type=checkbox]:checked + .switch-label::before {
+  .menu_b input[type=checkbox]:checked + .switch-label::before {
     transform: translateX(30px);
+  }
+  /*Menu de la red*/
+  .menu_h {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+  }
+  .menu {
+    width: 150px;
+    height: 100%;
+    border-right: 1px solid black;
+    position: fixed;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu img {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50px;
+  }
+  .menu .botones {
+    width: 80px;
+    height: 50px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 45px;
+    text-decoration: none;
+  }
+  .menu .activado {
+    background-color: #DBA9FF;
   }
 }
 
