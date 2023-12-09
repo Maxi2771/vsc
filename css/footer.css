@@ -1,3 +1,37 @@
+@media screen and (max-width: 1024px) {
+  footer {
+    width: 100%;
+    height: 190px;
+    border-top: 1px solid #DBA9FF;
+    text-align: center;
+  }
+  footer .contacto {
+    position: relative;
+    top: 20px;
+  }
+  footer .contacto .contenedor_img_footer img {
+    position: relative;
+    top: 5px;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #DBA9FF;
+    background-color: #352C48;
+    border-radius: 50px;
+  }
+  footer .redes {
+    position: relative;
+    top: 40px;
+  }
+  footer .redes .contenedor_img_footer img {
+    position: relative;
+    top: 5px;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #DBA9FF;
+    background-color: #352C48;
+    border-radius: 50px;
+  }
+}
 @media screen and (max-width: 852px) {
   footer {
     width: 100%;
